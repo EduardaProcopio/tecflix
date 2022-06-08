@@ -1,37 +1,114 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
 
-You can use the [editor on GitHub](https://github.com/eduardaprocopio/tecflix.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsivo.css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!--Owl CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
-### Markdown
+    <title>Tecnoflix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">TECFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Filmes</a>
+                <a href="#">Séries</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">SILICON VALLEY</h3>
+                <p class="descricao">Ambientada no Vale do Silício, região da Califórnia fértil em inovações 
+                    tecnológicas e científicas, a série mostra um grupo de desenvolvedores que cria novo um 
+                    programa com o objetivo de impressionar um bilionário excêntrico do ramo tecnológico.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="carrosel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/capa1.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa2.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa3.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa4.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa5.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa6.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa7.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa8.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa9.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa10.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="carrosel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/capa11.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa12.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa13.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa14.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa15.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa16.jpg">
+            </div>
+        </div>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <script src="https://kit.fontawesome.com/aaf8e39ac3.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eduardaprocopio/tecflix.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
